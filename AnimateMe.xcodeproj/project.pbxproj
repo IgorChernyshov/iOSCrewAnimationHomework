@@ -14,11 +14,10 @@
 		7C984AE3274AC43B004FC738 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C984AE2274AC43B004FC738 /* LoginViewController.swift */; };
 		7C984AE6274AC43B004FC738 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C984AE4274AC43B004FC738 /* Main.storyboard */; };
 		7C984AE8274AC43D004FC738 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C984AE7274AC43D004FC738 /* Assets.xcassets */; };
-		7C984AEB274AC43D004FC738 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C984AE9274AC43D004FC738 /* LaunchScreen.storyboard */; };
 		7C984AF7274ADAB4004FC738 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C984AF6274ADAB4004FC738 /* LoginService.swift */; };
 		7C984AFA274ADACF004FC738 /* Services.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C984AF9274ADACF004FC738 /* Services.swift */; };
-		7CDA087D274C39DA00B3A816 /* TTFirsNeue-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA087B274C392B00B3A816 /* TTFirsNeue-Medium.ttf */; };
-		7CDA087E274C39DA00B3A816 /* TTFirsNeue-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7CDA087A274C392B00B3A816 /* TTFirsNeue-Regular.ttf */; };
+		D698F3A8276DCF75001133D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D698F3A7276DCF75001133D0 /* LaunchScreen.storyboard */; };
+		D698F3AA276DD0D1001133D0 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D698F3A9276DD0D1001133D0 /* SplashViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,12 +29,11 @@
 		7C984AE2274AC43B004FC738 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		7C984AE5274AC43B004FC738 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C984AE7274AC43D004FC738 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7C984AEA274AC43D004FC738 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C984AEC274AC43D004FC738 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C984AF6274ADAB4004FC738 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
 		7C984AF9274ADACF004FC738 /* Services.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services.swift; sourceTree = "<group>"; };
-		7CDA087A274C392B00B3A816 /* TTFirsNeue-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TTFirsNeue-Regular.ttf"; path = "../../../font/TTFirsNeue-Regular.ttf"; sourceTree = "<group>"; };
-		7CDA087B274C392B00B3A816 /* TTFirsNeue-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "TTFirsNeue-Medium.ttf"; path = "../../../font/TTFirsNeue-Medium.ttf"; sourceTree = "<group>"; };
+		D698F3A7276DCF75001133D0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D698F3A9276DD0D1001133D0 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +69,7 @@
 				7C984AE4274AC43B004FC738 /* Main.storyboard */,
 				7C984ADE274AC43B004FC738 /* AppDelegate.swift */,
 				7C984AE0274AC43B004FC738 /* SceneDelegate.swift */,
+				D698F3A9276DD0D1001133D0 /* SplashViewController.swift */,
 				7C984AE2274AC43B004FC738 /* LoginViewController.swift */,
 				7C80A4A2274AE09F006844BE /* ListViewController.swift */,
 				7C984AF5274ADAA8004FC738 /* Services */,
@@ -82,10 +81,8 @@
 		7C984AF4274ADA95004FC738 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7CDA087B274C392B00B3A816 /* TTFirsNeue-Medium.ttf */,
-				7CDA087A274C392B00B3A816 /* TTFirsNeue-Regular.ttf */,
 				7C984AE7274AC43D004FC738 /* Assets.xcassets */,
-				7C984AE9274AC43D004FC738 /* LaunchScreen.storyboard */,
+				D698F3A7276DCF75001133D0 /* LaunchScreen.storyboard */,
 				7C984AEC274AC43D004FC738 /* Info.plist */,
 			);
 			path = Resources;
@@ -158,10 +155,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7CDA087D274C39DA00B3A816 /* TTFirsNeue-Medium.ttf in Resources */,
-				7CDA087E274C39DA00B3A816 /* TTFirsNeue-Regular.ttf in Resources */,
-				7C984AEB274AC43D004FC738 /* LaunchScreen.storyboard in Resources */,
 				7C984AE8274AC43D004FC738 /* Assets.xcassets in Resources */,
+				D698F3A8276DCF75001133D0 /* LaunchScreen.storyboard in Resources */,
 				7C984AE6274AC43B004FC738 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -180,6 +175,7 @@
 				7C984AE1274AC43B004FC738 /* SceneDelegate.swift in Sources */,
 				7C984AF7274ADAB4004FC738 /* LoginService.swift in Sources */,
 				7C80A4A9274AE1B5006844BE /* DataService.swift in Sources */,
+				D698F3AA276DD0D1001133D0 /* SplashViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,14 +188,6 @@
 				7C984AE5274AC43B004FC738 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7C984AE9274AC43D004FC738 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7C984AEA274AC43D004FC738 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -327,13 +315,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3AAP3J6ER4;
+				DEVELOPMENT_TEAM = 73YFFUD89Y;
 				INFOPLIST_FILE = AnimateMe/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ertishchev.AnimateMe;
+				PRODUCT_BUNDLE_IDENTIFIER = frostfell.AnimateMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -346,13 +334,13 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3AAP3J6ER4;
+				DEVELOPMENT_TEAM = 73YFFUD89Y;
 				INFOPLIST_FILE = AnimateMe/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ertishchev.AnimateMe;
+				PRODUCT_BUNDLE_IDENTIFIER = frostfell.AnimateMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
